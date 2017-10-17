@@ -72,6 +72,7 @@ public class BussinesRule {
 	 */
 	public String dayEnabled(PicoPlacaForm picoPlacaForm) throws ParserConfigurationException, SAXException, IOException {
 		String messageAlert = Constants.MESSAGE_PREDICTOR_DEFAULT;
+		int numberSelector = 0;
 		PicoPlacaXmlFileParser picoPlacaXmlFileParser = new PicoPlacaXmlFileParser();
 		SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
 		SAXParser saxParser = saxParserFactory.newSAXParser();
@@ -82,7 +83,8 @@ public class BussinesRule {
 			for (PicoPlacaParam picoPlacaParam : listPicoPlacaParam) {
 				if(picoPlacaParam.getName().equalsIgnoreCase(String.valueOf(picoPlacaForm.getDateQuestion().get(Calendar.DAY_OF_WEEK)))){
 					char[] param = picoPlacaForm.getNumber().toCharArray(); 					
-					if(picoPlacaParam.getPicoini().equalsIgnoreCase(String.valueOf(param[6]))||picoPlacaParam.getPicofin().equalsIgnoreCase(String.valueOf(param[6])) ){
+					numberSelector = param.length == 7?6:5;
+					if(picoPlacaParam.getPicoini().equalsIgnoreCase(String.valueOf(param[numberSelector]))||picoPlacaParam.getPicofin().equalsIgnoreCase(String.valueOf(param[numberSelector])) ){
 						messageAlert =	this.getCalculateHours(picoPlacaForm.getParamTime(), picoPlacaParam.getMorninghourfin(), picoPlacaParam.getAfternoonhourfin());
 					}
 				}
