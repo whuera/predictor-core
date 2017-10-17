@@ -1,0 +1,8 @@
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/utils/Constants.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/businessrule/BussinesRule.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/Main.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/model/PicoPlacaForm.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/model/PicoPlacaParam.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/service/ServicePredictorPicoPlaca.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/params/PicoPlacaXmlFileParser.java
+/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/src/main/java/com/app/predictor/service/IPredictorPicoPlaca.java

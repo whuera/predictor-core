@@ -1,0 +1,6 @@
+projectKey=com.app.predictor:predictorapp
+serverUrl=http://35.192.75.186
+serverVersion=6.5.0.27846
+dashboardUrl=http://35.192.75.186/dashboard/index/com.app.predictor:predictorapp
+ceTaskId=AV8rWlsywYshFUSmDQrw
+ceTaskUrl=http://35.192.75.186/api/ce/task?id=AV8rWlsywYshFUSmDQrw

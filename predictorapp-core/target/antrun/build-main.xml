@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/target/predictorapp.zip">
+    <zipfileset includes="lib/**" dir="/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/target"/>
+    <zipfileset includes="predictorapp.jar" dir="/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core/target"/>
+    <zipfileset includes="readme.txt" dir="/root/Documents/workspace-sts-3.8.4.RELEASE/predictorapp-core"/>
+  </zip>
+</target>
+</project>

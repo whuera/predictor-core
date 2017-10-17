@@ -1,0 +1,8 @@
+com/app/predictor/Main.class
+com/app/predictor/service/IPredictorPicoPlaca.class
+com/app/predictor/params/PicoPlacaXmlFileParser.class
+com/app/predictor/businessrule/BussinesRule.class
+com/app/predictor/service/ServicePredictorPicoPlaca.class
+com/app/predictor/utils/Constants.class
+com/app/predictor/model/PicoPlacaParam.class
+com/app/predictor/model/PicoPlacaForm.class
